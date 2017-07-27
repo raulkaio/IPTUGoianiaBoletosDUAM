@@ -57,6 +57,12 @@ public class MainActivity extends AppCompatActivity{
         //Habilita o uso de javascript, fez com que a aplicação conseguisse enviar os formulários para o site da prefeitura
         webview.getSettings().setJavaScriptEnabled(true);
         webview.getSettings().setDomStorageEnabled(true);
+        webview.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
+        webview.getSettings().setAllowContentAccess(true);
+        webview.getSettings().setAllowFileAccess(true);
+        webview.getSettings().setAllowFileAccessFromFileURLs(true);
+        webview.getSettings().setAllowUniversalAccessFromFileURLs(true);
+
         webview.setWebChromeClient(new WebChromeClient());
 
         //Diminui o conteúdo trazido, como se estivesse no desktop, faz os itens na tela caberem todos de uma vez
