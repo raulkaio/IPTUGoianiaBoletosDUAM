@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "464212737079",
+    "firebase_url": "https://iptugoianiaboletosduam.firebaseio.com",
+    "project_id": "iptugoianiaboletosduam",
+    "storage_bucket": "iptugoianiaboletosduam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464212737079:android:8836d3e0d3f3c174",
+        "android_client_info": {
+          "package_name": "br.com.raulkaio.iptugoianiaboletosduam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464212737079-lfunfq6lc00bqaa8u0guvgl7147tdqna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI0XoHbcmaPRRpPt4iuM4HpSt5LJt4wI8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

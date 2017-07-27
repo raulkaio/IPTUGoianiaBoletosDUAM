@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">IPTU/ITU Goiânia</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
-    <string name="action_settings">Configuraçoes</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_sair">Sair</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5266434890042499~9963343872</string>
 </resources>

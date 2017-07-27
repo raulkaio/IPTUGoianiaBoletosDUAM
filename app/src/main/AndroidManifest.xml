@@ -3,6 +3,15 @@
     package="br.com.raulkaio.iptugoianiaboletosduam">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BIND_PRINT_SERVICE"/>
+
+    <service android:name=".MyPrintService"
+        android:permission="android.permission.BIND_PRINT_SERVICE">
+        <intent-filter>
+            <action android:name="android.printservice.PrintService" />
+        </intent-filter>
+    </service>
 
     <application
         android:allowBackup="true"
@@ -14,7 +23,8 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
